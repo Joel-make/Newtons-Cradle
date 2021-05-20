@@ -73,7 +73,7 @@ function draw() {
   if(keyCode===UP_ARROW)
   {
 	  Matter.Body.applyForce(bob1.body,bob1.body.position,
-	   {x:-35,y:-31.5})
+	   {x:-50,y:-45})
       
      gameState=2;
   }
